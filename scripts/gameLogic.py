@@ -1,10 +1,10 @@
 from .helpers import state, screenWidth, screenHeight, screen, green, white
 import pygame, random
 
-scoreSound = pygame.mixer.Sound("./res/Sounds/score.ogg")
-pongSound = pygame.mixer.Sound("./res/Sounds/pong.ogg")
-wallSound = pygame.mixer.Sound("./res/Sounds/wall.ogg")
-gameFont = pygame.font.Font("./res/Fonts/PressStart2P.ttf", 60)
+scoreSound = pygame.mixer.Sound("./res/sounds/score.ogg")
+pongSound = pygame.mixer.Sound("./res/sounds/pong.ogg")
+wallSound = pygame.mixer.Sound("./res/sounds/wall.ogg")
+gameFont = pygame.font.Font("./res/fonts/PressStart2P.ttf", 60)
 
 
 def ballLogic():
