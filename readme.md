@@ -10,4 +10,7 @@
 
 # Arrancando el juego
     python main.py
-
+    
+# controles
+    player1: ws
+    player2: ij
